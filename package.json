@@ -1,0 +1,41 @@
+{
+  "name": "SE-ChatModules",
+  "version": "1.0.0",
+  "description": "A bunch of chat modules to work with SE chat and Node.",
+  "author": "The-Quill <seriouslyquill@gmail.com>",
+  "contributors": [
+    {
+      "name": "The-Quill",
+      "email": "seriouslyquill@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Quill/SE-ChatModules"
+  },
+  "scripts": {
+    "start": "node ws.js",
+    "predeploy": "echo about to deploy",
+    "postdeploy": "echo deployed"
+  },
+  "bugs": {
+    "url": "https://github.com/The-Quill/SE-ChatModules/issues"
+  },
+  "keywords": [
+    "stackexchange",
+    "chatbot",
+    "sockets",
+    "chat",
+    "magic"
+  ],
+  "dependencies": {
+    "bluebird": "*",
+    "request": "*",
+    "cheerio": "*",
+    "ws": "*",
+  },
+  "private": true,
+  "analyze": true,
+  "preferGlobal": true,
+  "license": "MIT"
+}
